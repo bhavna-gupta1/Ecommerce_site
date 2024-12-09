@@ -1,0 +1,118 @@
+.product-detail-container_customer {
+  display: flex;
+  margin-top: 1rem;
+  gap: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 5rem;
+  border: 1px solid #ddd;
+  margin-right: 5rem;
+  
+}
+
+/* Left Section: Images */
+.product-images-section_customer {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+}
+
+/* Stack of small images */
+.small-images_customer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: 5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.thumbnail_customer {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  object-fit: cover;
+ margin-right: 2rem;
+  border-radius: 4px;
+}
+
+/* Main large image */
+.main-image_customer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px; /* Set max width of container */
+  height: 500px; /* Set max height of container */
+  overflow: hidden; /* Ensure image stays contained */
+}
+
+.main-image_customer img {
+  max-width: 100%; /* Allow image to scale within container */
+  max-height: 100%; /* Maintain aspect ratio within container */
+  object-fit: contain; /* Ensure it fits without distortion */
+  background: black;
+  border: 1px solid #ddd;
+}
+
+
+/* Right Section: Product Details */
+.product-details-section_customer {
+  flex: 1;
+}
+
+.product-details-section_customer h1 {
+  font-size: 1.8rem;
+}
+
+.price_customer {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color:  #6ca22e
+}
+
+.product-details-section_customer p {
+  margin: 8px 0;
+}
+
+.product-actions_btn_customer {
+  margin-top: 20px;
+}
+
+.add-to-cart_customer, .buy-now_customer {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.add-to-cart_customer {
+  background-color: #87BD41;
+  border: none;
+  color: #333;
+  border-radius: 10px;
+}
+
+.buy-now_customer {
+  background-color: white;
+  border: none;
+  color:black;
+  border-radius: 10px;
+
+}
+.add-to-cart_customer:active {
+  transform: scale(0.95); /* Makes the button look pressed */
+  background-color: #6ca22e; /* Darkens the background slightly on click */
+}
+.buy-now_customer:active {
+  transform: scale(0.95); /* Makes the button look pressed */
+  background-color: #6ca22e ; /* Darkens the background slightly on click */
+}
+.product-specifications_customer ul{
+ margin-top: 1rem; 
+
+ margin-left: 20px;
+}

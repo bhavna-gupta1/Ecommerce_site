@@ -1,0 +1,127 @@
+.shopping-card_customer {
+    background-color: rgb(174, 171, 171);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    width: 250px;
+    min-width: 250px;
+    max-width: 250px;
+    flex-direction: column;
+    margin-left: 10px;
+    scroll-snap-align: start;
+}
+
+.product-img_customer {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 40px;
+}
+
+.card-content_customer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+}
+
+.card-header_customer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.product-title_customer {
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+
+.rating_customer {
+    color: gold;
+    display: flex;
+    font-size: 12px;
+}
+
+.card-footer_customer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price_customer {
+    font-size: 14px;
+    color: #87BD41;
+    font-weight: bold;
+}
+
+.heading_customer {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.heading_customer h4 {
+    height: 30px;
+    width: 80px;
+    border: 2px solid rgb(214, 209, 209);
+    border-radius: 15px;
+    color: #16214E;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.main_div_customer {
+    margin-top: 0%;
+    background: rgba(233, 233, 233, 1);
+}
+
+.shopping-card_customer {
+    border: 2px solid rgb(214, 209, 209);
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    width: 200px;
+    min-width: 220px;
+    max-width: 220px;
+    height: 300px;
+    flex-direction: column;
+    margin-left: 30px;
+    scroll-snap-align: start;
+}
+
+.product-img_customer {
+    width: 217px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.card-content_customer {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 100%;
+}
+
+.cards-container_customer {
+    display: flex;
+    gap: 16px;
+    padding: 10px;
+    margin-left: 20px;
+    overflow: hidden;
+    height: auto;
+}
+
+.view-more-btn_customer {
+    height: 30px;
+    width: 100%;
+    border: none;
+    background-color: #3ca46b;
+    color: white;
+}

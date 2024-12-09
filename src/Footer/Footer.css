@@ -1,0 +1,142 @@
+/* Footer styles */
+.footer {
+    background-color: #f9eaea;
+    color: #333;
+    padding: 40px 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+    gap: 20px;
+  }
+  
+  .footer-left {
+    flex: 2; /* Wider left section */
+  }
+  
+  .footer-center, .footer-right {
+    flex: 1;
+  }
+  
+  .footer-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-logo img {
+    height: 40px;
+    width: 130px;
+  }
+  
+  .footer-left p {
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: left;
+    margin-top: 30px;
+  }
+  
+  .footer-center ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 150px;
+  }
+  
+  .footer-center li {
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .footer-right {
+    margin-right: 30px;
+    margin-top: 40px;
+  }
+  
+  .footer-right p {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 14px;
+    margin-left: 100px;
+  }
+  
+  .footer-right p svg {
+    margin-right: 8px;
+    color: #333;
+  }
+  
+  /* Footer bottom section */
+  .footer-bottom {
+    width: 100%;
+    background-color: rgba(125, 36, 104, 0.1);
+    border-top: 1px solid #ddd;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    /* position: fixed; */
+    bottom: 0;
+    left: 0;
+  }
+  
+  .footer-bottom-container {
+    max-width: 100%;
+  }
+  
+  .footer-bottom p {
+    margin-left: 50px;
+  }
+  
+  /* Social media icons */
+  .footer-social svg {
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .footer-social {
+    margin-right: 50px;
+  }
+  
+  .footer-social .instagram {
+    color: #C13584;
+  }
+  
+  .footer-social .facebook {
+    color: #3b5998;
+  }
+  
+  .footer-social .mail {
+    color: #EA4335;
+  }
+  
+  .footer-social .linkedin {
+    color: #0077b5;
+  }
+  
+  .footer-social svg:hover {
+    filter: brightness(1.2);
+  }
+  
+  .foter_para {
+    align-items: flex-start;
+    font-size: 14px;
+  }
+  .phn_no{
+    display: flex;
+    flex-direction: row;
+  }
+  .land_no{
+    font-size: 14px;
+    font-weight: bold;
+    }

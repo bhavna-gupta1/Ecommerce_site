@@ -1,0 +1,221 @@
+/* Container for the entire profile page layout */
+.main_div_userprofile_customer {
+  display: flex;
+  flex-direction: row;
+}
+
+.userprofile-page_customer {
+  display: flex;
+  width: 80%;
+  padding: 20px;
+  margin-top: 50px;
+  box-sizing: border-box;
+}
+
+.userprofile-content_customer {
+  border: 1px solid #ddd;
+}
+
+/* Main container for the layout */
+.user_profile_main_div_customer {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Sidebar styling */
+.user_profile_main_div_customer .userprofile-sidebar_customer {
+  width: 30%;
+  max-width: 250px;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+/* Profile Content Area */
+.userprofile-content_customer {
+  flex: 1;
+  padding: 20px 40px;
+  box-sizing: border-box;
+}
+
+/* Headings with space and inline edit link */
+h2, h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Edit link styling */
+.edit-link_customer, .cancel-link_customer {
+  color: #33C71C;
+  font-size: 14px;
+  text-decoration: none;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* Section for input fields */
+.userprofile-edit-section_customer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  gap: 10px; /* Space between inputs */
+}
+
+/* Input fields styling */
+.userprofile-input_customer {
+  width: 100%;
+  max-width: 300px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Save button styling */
+.userprofile-save-button_customer {
+  padding: 10px 20px;
+  background-color: #33C71C;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+/* Spacing for account options section */
+.userprofile-account-options_customer {
+  margin-top: 20px;
+}
+
+.userprofile-account-options_customer a {
+  display: block;
+  margin-top: 5px;
+  color: #333;
+}
+
+.userprofile-deactivate_customer {
+  color: green;
+}
+
+.userprofile-delete_customer {
+  color: red;
+}
+
+/* Sidebar item styling */
+.userprofile-sidebar_customer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.userprofile-sidebar_customer ul li {
+  padding: 10px 0;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+}
+
+.userprofile-sidebar_customer ul li:hover {
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .user_profile_main_div_customer {
+      flex-direction: column;
+  }
+
+  .userprofile-sidebar_customer {
+      width: 100%;
+      border-right: none;
+      border-bottom: 1px solid #ddd;
+  }
+
+  .userprofile-content_customer {
+      width: 100%;
+      padding: 20px;
+  }
+}
+
+.userprofile-faq-question_customer {
+  font-weight: bold;
+  padding: 5px;
+  padding-left: 0;
+}
+
+.userprofile-faq-answer_customer {
+  padding: 8px;
+  padding-left: 0;
+}
+
+.userprofile-faq_customer {
+  font-size: 12px;
+}
+
+.userprofile-faq_customer h3 {
+  margin-top: 20px;
+}
+
+.edit-link_customer {
+  float: right;
+  background: none;
+  border: none;
+  color: #33C71C;
+  cursor: pointer;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.userprofile-save-button_customer {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 8px 16px;
+  background-color: #33C71C;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.del_deactive_btn_customer {
+  margin-top: 40px;
+}
+
+.del_deactive_btn_customer p {
+  padding: 10px;
+  padding-left: 0;
+}
+
+.delete_profile_customer {
+  color: red;
+}
+
+.deactive_customer {
+  color: #33C71C;
+}
+
+.footer_img_customer img {
+  height: 60px;
+  width: 120%;
+  margin-left: -60px;
+}
+
+.footer_customer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #f8f9fa;
+  padding: 10px 0;
+  text-align: center;
+}

@@ -1,0 +1,137 @@
+/* General Sidebar Layout */
+*{
+    text-decoration: none;
+    list-style: none;
+}
+.sidebar_customer {
+    width: 250px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    display: flex;
+    margin-top: 60px;
+   
+    flex-direction: column;
+  }
+  
+  .profile-header_customer {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .user-icon_customer {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin-bottom: 10px;
+  }
+  
+  .menu_customer {
+    width: 100%;
+  }
+  
+  .menu-section_customer {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 14px;
+    color: #555;
+    height: 60px;
+    padding: 10px 5px;
+    /* border-bottom: 1px solid #ddd; */
+    cursor: pointer;
+    border-top: 1px solid #ddd;
+  }
+  
+  .menu-icon_customer {
+    margin-right: 10px;
+    color: #555;
+  }
+  
+  /* Submenu items */
+  .submenu_customer {
+    padding-left: 0; /* Remove padding here to align full width */
+  }
+  
+  .submenu_customer li {
+    padding: 10px 25px; /* Add padding inside each item for spacing */
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    display: block; /* Make each item take full width */
+    width: 100%; /* Ensure the background covers full width */
+  }
+  
+  .submenu_customer li:hover {
+    color: black;
+    background: #33C71C;
+    opacity: 0.38; /* Adjusted opacity syntax */
+  }
+  
+  
+  .submenu-icon_customer {
+    margin-right: 5px;
+  }
+ 
+  
+  
+  .logout_customer {
+    /* color: red; */
+    font-weight: bold;
+    /* margin-top: 10px; */
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .sidebar_customer {
+      width: 100%;
+      border-right: none;
+      border-bottom: 1px solid #ddd;
+    }
+  
+    .profile-header_customer, .menu-section_customer, .submenu_customer li {
+      text-align: center;
+    }
+  
+    .menu-icon_customer {
+      display: none;
+    }
+  }
+  .profile-icon-sidebar_customer img {
+    /* font-size: 1rem; */
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+  }
+  
+  /* User info (name and phone) */
+  .profile-info-side_customer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px
+  }
+  
+  .profile-name-side_customer {
+    font-weight: bold;
+  }
+  
+  .profile-phone-side_customer {
+    font-size: 0.9em;
+    color: #666;
+  }
+  /* Profile options */
+  .profile-option_sidebar_customer {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+   
+    align-items: center;
+    cursor: pointer;
+    
+  }
